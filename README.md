@@ -8,6 +8,8 @@ follow the steps below :-
 
 If you don't have git on your machine, [install it]( https://help.github.com/articles/set-up-git/).
 
+And if you get stuck at anywhere just [go here](https://www.google.com/webhp?hl=en&ictx=2&sa=X&ved=0ahUKEwjX4fnS4MPpAhWDhXIEHYbeCncQPQgH) and type in the problem.
+
 ## Fork this repository
 
 Fork this repository by clicking on the fork button on the top of this page.
@@ -65,7 +67,13 @@ If you go to the project directory and execute the command `git status`, you'll 
 Add those changes to the branch you just created using the `git add` command:
 
 ```
+git add index.css
 git add Contributors.md
+```
+Or you can use this command to add all files at once 
+
+```
+git add .
 ```
 
 Now commit those changes using the `git commit` command:
