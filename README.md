@@ -4,7 +4,7 @@ This is the open source project for [cesta.me](url) portal
 here are some guidlines to help you on how to contribute to this project 
 follow the steps below :-
 
-<img align="right" width="300" src="assets/images/fork.png" alt="fork this repository" />
+<img align = "right" width="300" src="assets/images/fork.png" alt="fork this repository" />
 
 If you don't have git on your machine, [install it]( https://help.github.com/articles/set-up-git/).
 

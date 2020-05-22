@@ -5,10 +5,13 @@
 }
 .navbar-brand{
     font-family: 'Quicksand', sans-serif;
-    color:rgb(56, 102, 235) !important;
+    color: rgb(88, 125, 238)!important;
     font-weight: bolder;
     letter-spacing:0.5vh;
+    font-size: 23px;
 }
+
+
 /* The navbar section ends here */
 
 
@@ -22,7 +25,7 @@
     font-family: 'Dosis', sans-serif;
     font-weight: bold;
     font-size:1.7vh;
-    background-color: rgb(56, 102, 235);
+    background-color: rgb(139, 161, 228);
     color:white;
     letter-spacing:0.2vh;
 }
@@ -34,8 +37,8 @@
     font-weight: bold;
     font-size:1.7vh;
     background-color:rgb(227, 224, 251);
-    color:rgb(56, 102, 235);
-    letter-spacing:0.2vh;
+    color:rgb(79, 159, 196);
+    letter-spacing: 0.2vh;
 }
 .btn3{
     border:0px;
@@ -43,10 +46,10 @@
     border-radius:0.7vh;
     font-family: 'Dosis', sans-serif;
     font-weight: bold;
-    font-size:1.5vh;
-    background-color: rgb(56, 102, 235);
+    font-size:1.7vh;
+    background-color: #719dbe;
     color:white;
-    letter-spacing:0.3vh;
+    letter-spacing:0.4vh;
 }
 .btn4{
     border:0px;
@@ -55,11 +58,15 @@
     font-family: 'Dosis', sans-serif;
     font-weight: bold;
     font-size:1.7vh;
-    background-color:rgb(227, 224, 251);
-    color:rgb(56, 102, 235);
+    background-color: #7cabce;
+    color: white;
     letter-spacing:0.2vh;
     width:13vh;
 }
+.btn4:hover{
+    background-color: rgb(91, 116, 173);
+}
+
 .btn5{
     font-family: 'Dosis', sans-serif;
     font-size:1.7vh;
@@ -122,7 +129,7 @@
 
 }
 .description{
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Lobster Two';
     letter-spacing: 0.3vh;
     color:rgb(89, 106, 130);
     font-size:1.9vh;
@@ -148,8 +155,8 @@
 .second{
     padding-top:7vh;
     padding-bottom:7vh;
-    background:#2b354f; 
-}
+    background-color:#192a50;
+    background: linear-gradient(45deg,rgb(68, 77, 99),#1e2d44);}
 
 hr{
     border-color:#b9c1c9;
@@ -173,14 +180,14 @@ hr{
     line-height:2.5vh;
 }
 .third{
-    background: #f1f4f8; 
+    background: #f1f8ff;
 }
 .notice{
     padding-top:10vh;
     padding-bottom:12vh;
 }
 .notice1{
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand' , sans-serif;
     letter-spacing: 0.3vh;
     font-size: 3vh;
     border-left:2px solid #b9c1c9;;
@@ -192,7 +199,7 @@ hr{
     font-size:2vh;
     font-family: 'Dosis', sans-serif;
     letter-spacing: 3px;
-    border-left:2px solid #b9c1c9;;
+    border-left: 2px solid #b9c1c9;
     padding-left: 3vh;
 }
 .reason{
@@ -200,33 +207,34 @@ hr{
     font-family: 'Quicksand', sans-serif;
     letter-spacing: 0.3vh;
     font-size: 2.5vh;
-    color:#57BB96;
+    color:rgb(46, 141, 106);
 }
 .fourth{
     padding-top:10vh;
-    background: #f1f4f8;
+    background: #f1f8ff;
     padding-bottom: 10vh; 
 }
 .contact{
-    padding-top: 10vh;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
     font-family: 'Quicksand', sans-serif;
     letter-spacing: 0.3vh;
     font-size: 2.8vh;
 }
 .contact1{
-    font-size:2.5vh;
-    color:#57bb96
+    font-size:2.7vh;
+    color: #2d6e56;
 }
 .contact2{
-    font-size:1.8vh;
-    font-family: 'Dosis', sans-serif;
-    color:rgb(121, 133, 151);
+    font-size:1.9vh;
+    color:rgb(89, 106, 130);
+    font-family: 'Quicksand', sans-serif ;
     padding-top:1vh;
 }
 .contact3{
     padding-top: 2vh;
     font-size: 1.5vh;
-    color:rgb(121, 133, 151);
+    color:black;
 }
 .form{
     margin: 0vh;
@@ -253,13 +261,15 @@ hr{
     padding-top: 0.7vh;
 }
 .foot{
-    background-color:#2b354f;
+    background-color:#192a50;
+    background: linear-gradient(45deg,rgb(68, 77, 99),#1e2d44);
+
     color:white;
     padding-top:15vh;
     padding-bottom: 15vh;
 }
 .foot-text{
-    font-family: 'Quicksand', sans-serif;
+    font-family:'Dancing Script';
     letter-spacing:0.3vh;
     border-right: 1px solid white;
     border-left: 1px solid white;
@@ -293,6 +303,12 @@ hr{
 }
 
 
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
 /* CSS for mobile Devices */
 
 @media only screen and (max-width: 600px) {
