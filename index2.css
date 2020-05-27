@@ -1,0 +1,316 @@
+/* The navbar section starts here */
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+.navbar{
+    padding-top:2vh;
+    padding-bottom:2vh;
+}
+.navbar-brand{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(88, 125, 238)!important;
+    font-weight: bolder;
+    letter-spacing:0.5vh;
+    font-size: 23px;
+}
+
+/* The navbar section ends here */
+
+
+/* Button Components */
+.button1{
+    border:0px;
+    padding:1.5vh;
+    border-radius:0.7vh;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    font-size:1.7vh;
+    background-color: rgb(139, 161, 228);
+    color:white;
+    letter-spacing:0.2vh;
+}
+.button2{
+    border:0px;
+    padding:1.5vh;
+    border-radius:0.7vh;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    font-size:1.7vh;
+    background-color:rgb(227, 224, 251);
+    color:rgb(79, 159, 196);
+    letter-spacing: 0.2vh;
+}
+.btn3{
+    border:0px;
+    padding:1.3vh;
+    border-radius:0.7vh;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    font-size:1.7vh;
+    background-color: #719dbe;
+    color:white;
+    letter-spacing: 0.4vh;
+}
+.btn4{
+    border:0px;
+    padding:1.8vh;
+    border-radius:0.7vh;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    font-size:1.7vh;
+    background-color: #7cabce;
+    color: white;
+    letter-spacing:0.2vh;
+    width:13vh;
+}
+.btn4:hover{
+    background-color: rgb(91, 116, 173);
+}
+
+.btn5{
+    font-family: 'Dosis', sans-serif;
+    font-size:1.7vh;
+    background-color:#499e7f;
+    letter-spacing: 0.3vh;
+    border-radius:0.7vh;
+    border:0px;
+    width:30vh;
+    height: 4vh;
+    color:white;
+}
+/* Button components ends here */
+
+
+
+/* CSS For Images */
+.cover{
+    height: 35vh;
+    width: 45vh;
+}
+.png{
+    height: 4vh;
+}
+.png2{
+    height:7vh;
+}
+.png3{
+    height:3vh;
+}
+.lottie{
+    height:50vh;
+    width:50vh;
+}
+.tick{
+    height: 3vh;
+}
+.png4{
+    border-radius:15vh;
+
+}
+.jpg{
+    width:40vh;
+    height:25vh;
+    border-radius: 0.5vh;
+}
+/* CSS for images ends here */
+
+
+
+.first{
+    padding-top:15vh;
+    padding-bottom: 15vh;
+}
+.heading{
+    padding-top:2vh;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3.8vh;
+    padding-bottom:2vh;
+    margin: 0px;
+
+}
+.description{
+    font-family: 'Lobster Two';
+    letter-spacing: 0.3vh;
+    color:rgb(89, 106, 130);
+    font-size:1.9vh;
+    padding-bottom: 5vh;
+}
+
+.png-pad{
+    padding-top:1vh;
+    padding-bottom: 5vh;
+}
+.png-about{
+    padding-top:1vh;
+    font-family: 'Dosis', sans-serif;
+    font-size:1.7vh;
+    font-weight:bold;
+    color:rgb(89, 106, 130);
+    letter-spacing: 2px;
+}
+.symbols{
+    padding-top:3vh;
+}
+
+.second{
+    padding-top:7vh;
+    padding-bottom:7vh;
+    background-color:#192a50;
+    background: linear-gradient(45deg,rgb(68, 77, 99),#1e2d44);}
+
+hr{
+    border-color:#b9c1c9;
+    margin: 0px;
+
+}
+
+.info{
+    padding-top: 3vh;
+    font-family: 'Quicksand', sans-serif;
+    font-size:1.9vh;
+    letter-spacing:0.2vh;
+    color:white;
+}
+.info2{
+    padding-top:2vh;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 0.3vh;
+    color:#8397b4;
+    font-size:1.4vh;
+    line-height:2.5vh;
+}
+.third{
+    background: #f1f8ff;
+}
+.notice{
+    padding-top:10vh;
+    padding-bottom:12vh;
+}
+.notice1{
+    font-family: 'Quicksand' , sans-serif;
+    letter-spacing: 0.3vh;
+    font-size: 3vh;
+    border-left:2px solid #b9c1c9;;
+    padding-left: 3vh;
+}
+.notice2{
+    padding-top:3vh;
+    color:rgb(89, 106, 130);
+    font-size:2vh;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 3px;
+    border-left: 2px solid #b9c1c9;
+    padding-left: 3vh;
+}
+.reason{
+    padding-bottom:5vh;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 0.3vh;
+    font-size: 2.5vh;
+    color:rgb(46, 141, 106);
+}
+.fourth{
+    padding-top:10vh;
+    background: #f1f8ff;
+    padding-bottom: 10vh; 
+}
+.contact{
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 0.3vh;
+    font-size: 2.8vh;
+}
+.contact1{
+    font-size:2.7vh;
+    color: #2d6e56;
+}
+.contact2{
+    font-size:1.9vh;
+    color:rgb(89, 106, 130);
+    font-family: 'Quicksand', sans-serif ;
+    padding-top:1vh;
+}
+.contact3{
+    padding-top: 2vh;
+    font-size: 1.5vh;
+    color:black;
+}
+.form{
+    margin: 0vh;
+    width:40vh;
+    background-color: white;
+    padding-bottom: 2vh;
+    border-radius: 0.5vh;
+}
+.input{
+    border:0px;
+    border-bottom: 1px solid #b9c1c9;
+    width: 35vh;
+    height: 4vh;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 0.3vh;
+}
+.input1{
+    border:0px;
+    border-bottom: 1px solid #b9c1c9;
+    width: 35vh;
+    height: 10vh;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 0.3vh;
+    padding-top: 0.7vh;
+}
+.foot{
+    background-color:#192a50;
+    background: linear-gradient(45deg,rgb(68, 77, 99),#1e2d44);
+
+    color:white;
+    padding-top:15vh;
+    padding-bottom: 15vh;
+}
+.foot-text{
+    font-family:'Dancing Script';
+    letter-spacing:0.3vh;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    font-size: 1.5vh;
+}
+.foot-text1{
+    padding-top: 2vh;
+    color:#57BB96;
+    font-size: 2.3vh;
+}
+.foot-text2{
+    font-size:1.6vh;
+    padding-top: 3vh;
+    color:white;
+    padding-bottom: 5vh;
+}
+.pad{
+    padding-top:4vh;
+}
+.course{
+    font-family: 'Dosis', sans-serif;
+    letter-spacing:0.3vh;
+    font-size: 2.4vh;
+}
+.course-info{
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing:0.3vh;
+    font-size: 1.5vh;
+    padding:2vh;
+    color:rgb(121, 133, 151);
+}
+
+
+/* CSS for mobile Devices */
+
+@media only screen and (max-width: 600px) {
+    .first{
+        padding-top: 3vh;
+    }
+}
