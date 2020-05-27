@@ -1,6 +1,8 @@
+<<master
 /*This CSS is specially made for cesta.me*/
 /*Created by its contributor(s)*/
 /*Last Updated on 21 MAY 2020*/
+>> web-design-compition-1
 
 /* The navbar section starts here */
 .navbar{
@@ -9,14 +11,66 @@
 }
 .navbar-brand{
     font-family: 'Quicksand', sans-serif;
-    color:rgb(56, 102, 235) !important;
+    color:white;
     font-weight: bolder;
     letter-spacing:0.5vh;
+    font-size: 30px;
 }
 /* The navbar section ends here */
 
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
 
+.btn-outline-primary {
+    color: white;
+    border-color: white;
+  }
+/* new*/
+a{
+ color: white; 
+}
+.jumbotron{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-bottom: 22vh;
+  margin-bottom: 0rem;
+  background-image: url("dtcb.jpg");
+  background-size:cover;  
+  width:100%;
+  background-blend-mode: hue;
 
+}
+
+.ok{
+  padding-left: 72vh;
+}
+
+h1{
+  text-align: center;
+  color: white;
+  font-size: 3.6em;
+  margin: 30px 0 0;
+  font-weight: 300;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h2{
+   text-align: center;
+  color: white;
+  font-size: 1.2em;
+  margin: 30px 0 0;
+  font-weight: 300;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h5{
+text-align: center;
+  color: white;
+  font-size: 1.6em;
+  margin: 30px 0 0;
+  font-weight: 300;
+  font-family: 'Quicksand', sans-serif;
+}
 
 /* Button Components */
 .button1{
@@ -29,6 +83,8 @@
     background-color: rgb(56, 102, 235);
     color:white;
     letter-spacing:0.2vh;
+
+
 }
 .button2{
     border:0px;
@@ -77,7 +133,11 @@
 }
 /* Button components ends here */
 
-
+.png-pad {
+    padding-top: 1vh;
+    padding-bottom: 5vh;
+    font-family: 'Cinzel', serif;
+}
 
 /* CSS For Images */
 .cover{
@@ -113,10 +173,18 @@
 
 
 
-.first{
-    padding-top:15vh;
+.page-header.page-header-small{
+   
     padding-bottom: 15vh;
-}
+    min-height: 65vh!important;
+    max-height: 700px;
+    background-position: relative;
+    background-size: cover;
+    background-color: #FFFFFF;
+    font-family: 'Cinzel', serif;
+}  
+
+
 .heading{
     padding-top:2vh;
     font-family: 'Quicksand', sans-serif;
@@ -147,19 +215,23 @@
 }
 .symbols{
     padding-top:3vh;
+    padding-left: 25vh;
 }
 
 .second{
     padding-top:7vh;
     padding-bottom:7vh;
-    background:#2b354f; 
+    background:#434343;
+    color: black; 
 }
 
-hr{
-    border-color:#b9c1c9;
-    margin: 0px;
 
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
+  
 
 .info{
     padding-top: 3vh;
@@ -172,7 +244,7 @@ hr{
     padding-top:2vh;
     font-family: 'Quicksand', sans-serif;
     letter-spacing: 0.3vh;
-    color:#8397b4;
+    color:#e9e4f0;
     font-size:1.4vh;
     line-height:2.5vh;
 }
@@ -204,11 +276,11 @@ hr{
     font-family: 'Quicksand', sans-serif;
     letter-spacing: 0.3vh;
     font-size: 2.5vh;
-    color:#57BB96;
+    color:#E9E4F0;
 }
 .fourth{
     padding-top:10vh;
-    background: #f1f4f8;
+    background: #434343;
     padding-bottom: 10vh; 
 }
 .contact{
@@ -216,21 +288,22 @@ hr{
     font-family: 'Quicksand', sans-serif;
     letter-spacing: 0.3vh;
     font-size: 2.8vh;
+    color: white;
 }
 .contact1{
     font-size:2.5vh;
-    color:#57bb96
+    color:white;
 }
 .contact2{
     font-size:1.8vh;
     font-family: 'Dosis', sans-serif;
-    color:rgb(121, 133, 151);
+    color:#d3cce3;
     padding-top:1vh;
 }
 .contact3{
     padding-top: 2vh;
     font-size: 1.5vh;
-    color:rgb(121, 133, 151);
+    color:#d3cce3;
 }
 .form{
     margin: 0vh;
@@ -257,8 +330,7 @@ hr{
     padding-top: 0.7vh;
 }
 .foot{
-    background-color:#2b354f;
-    color:white;
+    background-color:#000000;
     padding-top:15vh;
     padding-bottom: 15vh;
 }
@@ -268,20 +340,23 @@ hr{
     border-right: 1px solid white;
     border-left: 1px solid white;
     font-size: 1.5vh;
+    color: white;
 }
 .foot-text1{
-    padding-top: 2vh;
-    color:#57BB96;
+    padding-top: 3vh;
+    color: white;
     font-size: 2.3vh;
 }
 .foot-text2{
     font-size:1.6vh;
-    padding-top: 3vh;
+    padding-top: 1vh;
     color:white;
     padding-bottom: 5vh;
 }
+
+
 .pad{
-    padding-top:4vh;
+    padding-top:0vh;
 }
 .course{
     font-family: 'Dosis', sans-serif;
